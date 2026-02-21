@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description"
+    content="Lihance K. Bopche — Full-Stack Developer Portfolio. PHP, JavaScript, Java, UI/UX, Modern Web Systems." />
+  <meta name="keywords"
+    content="Lihance Bopche, Full Stack Developer, Web Developer, Portfolio, PHP Developer, JavaScript Developer" />
+  <meta name="author" content="Lihance K. Bopche" />
+  <title>Lihance K. Bopche — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <meta name="description"
+    content="Lihance K. Bopche — Professional Web Developer Portfolio. Full-stack, PHP, JS, Java.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- NAV -->
+    <header>
+      <div class="brand">
+        <div class="logo">LK</div>
+        <div>
+          <div class="brand-name" style="font-weight:700">Lihance K. Bopche</div>
+          <div style="font-size:12px;color:var(--muted)">Web Developer · Full-Stack Developer</div>
+        </div>
+      </div>
+      <nav class="navlinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+        <a class="btn-primary" href="#contact">Hire Me</a>
+      </nav>
+    </header>
+
+    <!-- HERO with ID card -->
+    <section class="hero">
+      <div class="id-wrap card">
+        <div class="id-card" id="idCard">
+          <div class="glow-layer"></div>
+          <div class="id-top">
+            <div class="photo-wrap">
+              <!-- Replace images/photo.jpg with your real photo (recommended 600x600) -->
+              <img src="images/logo.jpeg" alt="Lihance photo" id="profilePhoto"
+                onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22110%22 height=%22110%22><rect rx=14 width=%22110%22 height=%22110%22 fill=%22%230b1220%22/><text x=%2255%22 y=%2264%22 fill=%22%23cbd5e1%22 font-family=%22Inter,Arial%22 font-size=%2220%22 text-anchor=%22middle%22>LK</text></svg>'">
+            </div>
+            <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:flex-start">
+              <div class="id-name" style="color:#eaf3ff">Lihance K. Bopche</div>
+              <div class="id-role">Software Developer · Full-Stack</div>
+            </div>
+          </div>
+          <div class="id-bio">
+            Enthusiastic and motivated software developer with experience in PHP, HTML/CSS, JavaScript, Java and
+            database systems. Teaching experience & practical projects building client websites and admin tools.
+          </div>
+          <div class="id-qr">ID • Developer • MCA (2024-2026)</div>
+        </div>
+        <!-- small interactive 3D canvas overlay for ID card reflection -->
+        <div style="position:absolute;left:12px;top:12px;pointer-events:none;width:320px;height:420px">
+          <canvas id="idCanvas" width="320" height="420" style="width:320px;height:420px"></canvas>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card hero-advanced">
+
+          <h3 class="hero-title">Hi — I'm Lihance</h3>
+          <p class="hero-sub">
+            I design & build scalable web systems, modern UI interfaces, and real-world applications
+            focused on performance, clarity, and usability.
+          </p>
+
+          <div class="progress-wrap">
+
+            <div class="progress-item">
+              <div class="progress-label">
+                <span>Frontend Development</span>
+                <span>92%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill fill1"></div>
+              </div>
+            </div>
+
+            <div class="progress-item">
+              <div class="progress-label">
+                <span>Backend / Logic</span>
+                <span>88%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill fill2"></div>
+              </div>
+            </div>
+
+            <div class="progress-item">
+              <div class="progress-label">
+                <span>UI / UX Design</span>
+                <span>95%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill fill3"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div style="margin-top:14px;display:flex;gap:10px">
+            <a class="small-btn" href="#projects">See Work</a>
+            <a class="small-btn" href="mailto:lihancebopche@gmail.com">Contact Me</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MAIN content -->
+    <main>
+      <div>
+        <section class="card" id="about">
+          <h2>About</h2>
+          <p class="lead">🚀 Motivated Full-Stack Developer passionate about building modern web applications. <br>
+            💡 Strong focus on UI, responsiveness, and backend integration <br>
+            🎯 Goal: Build impactful tech products & scalable systems <br><br>
+
+            ✔ MCA – SGB Amravati University (2024–2026) <br>
+            ✔ Background in Commerce + Computer Applications</p>
+        </section>
+        <section class="card" id="tech">
+          <h2>Tech Stack</h2>
+          <p class="lead">Languages, frameworks, databases & tools I work with.</p>
+
+          <div style="margin-top:14px">
+
+            <h4 style="margin:0 0 8px 0;color:#cbd5f5">Languages & Technologies</h4>
+            <div class="icon-row">
+              <img src="https://skillicons.dev/icons?i=html,css,js,php,java,python,dotnet,cs" />
+            </div>
+
+            <h4 style="margin:14px 0 8px 0;color:#cbd5f5">Frameworks / Runtime</h4>
+            <div class="icon-row">
+              <img src="https://skillicons.dev/icons?i=nodejs,react,express" />
+            </div>
+
+            <h4 style="margin:14px 0 8px 0;color:#cbd5f5">Databases</h4>
+            <div class="icon-row">
+              <img src="https://skillicons.dev/icons?i=mysql,mongodb,supabase" />
+            </div>
+
+            <h4 style="margin:14px 0 8px 0;color:#cbd5f5">Tools / Workflow</h4>
+            <div class="icon-row">
+              <img src="https://skillicons.dev/icons?i=vscode,git,github,figma,postman,canva" />
+            </div>
+
+            <h4 style="margin:14px 0 8px 0;color:#cbd5f5">Deployment / Hosting</h4>
+            <div class="icon-row">
+              <img src="https://skillicons.dev/icons?i=netlify,firebase,nginx" />
+            </div>
+
+          </div>
+        </section>
+        <section class="card" id="projects">
+          <h2>Selected Projects</h2>
+
+          <div class="projects-grid advanced" style="margin-top:12px">
+
+            <div class="project-item">
+              <div class="project-header">
+                <span>🏏</span>
+                <strong>Cricket Club Management System</strong>
+              </div>
+              <div class="meta">PHP • MySQL • Admin Dashboard</div>
+              <p>Role-based system with player records, match scheduling, scoring, and admin controls.</p>
+            </div>
+
+            <div class="project-item">
+              <div class="project-header">
+                <span>🖥</span>
+                <strong>Personal Portfolio Website</strong>
+              </div>
+              <div class="meta">HTML • CSS • JavaScript • 3D UI</div>
+              <p>Interactive developer portfolio featuring animations, glass UI, and Three.js visuals.</p>
+            </div>
+
+            <div class="project-item">
+              <div class="project-header">
+                <span>🏗</span>
+                <strong>Ashray Interior & Construction</strong>
+              </div>
+              <div class="meta">Frontend • UI/UX • Catalog System</div>
+              <p>Modern responsive interface focused on layout clarity, service presentation, and branding.</p>
+            </div>
+
+            <div class="project-item">
+              <div class="project-header">
+                <span>🌐</span>
+                <strong>Digital Grampanchayat</strong>
+              </div>
+              <div class="meta">Concept • Civic Tech • Web System</div>
+              <p>Conceptual platform aimed at simplifying citizen services and digital governance workflows.</p>
+            </div>
+
+          </div>
+        </section>
+        <div class="card">
+          <h2>Connect With Me</h2>
+
+          <div class="social-grid">
+
+            <a href="https://discord.gg/lihancekomeshbopche_17552" target="_blank">
+              <img src="https://skillicons.dev/icons?i=discord" />
+            </a>
+
+
+            <a href="https://instagram.com/lihance" target="_blank">
+              <img src="https://skillicons.dev/icons?i=instagram" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/lihance-komesh-bopche-15a263220" target="_blank">
+              <img src="https://skillicons.dev/icons?i=linkedin" />
+            </a>
+
+            <a href="https://x.com/LihanceBopche" target="_blank">
+              <img src="https://skillicons.dev/icons?i=twitter" />
+            </a>
+
+            <a href="https://youtube.com/@Haay_Garmi_2023" target="_blank">
+              <img src="https://skillicons.dev/icons?i=youtube" />
+            </a>
+
+            <a href="mailto:lihancebopche@gmail.com">
+              <img src="https://skillicons.dev/icons?i=gmail" />
+            </a>
+            <a href="https://github.com/LihanceBopche" target="_blank">
+              <img src="https://skillicons.dev/icons?i=github" />
+            </a>
+
+          </div>
+        </div>
+
+        <!-- 
+      <section class="card" id="experience">
+        <h2>Experience</h2>
+        <h4 style="margin:6px 0 4px 0">Teaching Assistant — Gokul Computer (2023-2024)</h4>
+        <ul style="color:var(--muted);margin-top:6px">
+          <li>Assisted in teaching HTML, CSS, PHP; mentored students and developed lessons.</li>
+        </ul>
+        <h4 style="margin:10px 0 4px 0">Software Dev Intern — Gokul Computers (2023)</h4>
+        <ul style="color:var(--muted);margin-top:6px">
+          <li>Worked on client projects involving PHP, Java, and web deployment.</li>
+        </ul>
+      </section> -->
+
+        <!-- <section class="card" id="education">
+        <h2>Education</h2>
+        <ul style="color:var(--muted)">
+          <li><strong>MCA</strong> — SGB Amravati University (2024-2026)</li>
+          <li><strong>BCCA</strong> — N. M. D. College, Gondia (2021-2024)</li>
+          <li><strong>Diploma in Computer Programming</strong> — Gokul Computers</li>
+        </ul>
+      </section> -->
+
+        <!-- <section class="card" id="certificates">
+        <h2>Certificates</h2>
+        <p class="lead">Add your certificate files into <code>assets/certs/</code> and update the links below (placeholders provided).</p>
+        <div class="cert-grid">
+          <div class="cert">
+            <strong>Web Development Certificate</strong>
+            <div class="meta">Issued by: Gokul Computers — 2023</div>
+            <div style="margin-top:8px"><a href="assets/certs/cert1.pdf" download class="small-btn">Download</a></div>
+          </div>
+          <div class="cert">
+            <strong>Power BI Basics</strong>
+            <div class="meta">Issued by: Online Course — 2024</div>
+            <div style="margin-top:8px"><a href="assets/certs/cert2.pdf" download class="small-btn">Download</a></div>
+          </div>
+          <div class="cert">
+            <strong>Java Programming</strong>
+            <div class="meta">Issued by: College — 2024</div>
+            <div style="margin-top:8px"><a href="assets/certs/cert3.pdf" download class="small-btn">Download</a></div>
+          </div>
+          <div class="cert">
+            <strong>Teaching Internship</strong>
+            <div class="meta">Issued by: Gokul Computer — 2024</div>
+            <div style="margin-top:8px"><a href="assets/certs/cert4.pdf" download class="small-btn">Download</a></div>
+          </div>
+        </div>
+      </section> -->
+
+
+      </div>
+
+      <!-- SIDEBAR -->
+      <aside>
+        <div class="card">
+          <h2>Contact</h2>
+          <div class="info">Email: <a href="mailto:lihancebopche@gmail.com">lihancebopche@gmail.com</a></div>
+          <div class="info">Phone: +91 7489553636</div>
+          <div class="info">Location: Gondia, Maharashtra</div>
+        </div>
+
+        <div style="height:12px"></div>
+
+        <div class="card contact-card" id="contact">
+          <h2>Send Message</h2>
+
+          <form name="contact" method="POST" data-netlify="true" action="/thank-you.html" class="modern-form">
+            <input type="hidden" name="form-name" value="contact">
+
+            <div class="input-group">
+              <input type="text" name="name" required>
+              <label>Your Name</label>
+            </div>
+
+            <div class="input-group">
+              <input type="email" name="email" required>
+              <label>Email Address</label>
+            </div>
+
+            <div class="input-group">
+              <textarea name="message" rows="4" required></textarea>
+              <label>Your Message</label>
+            </div>
+
+            <button type="submit" class="send-btn">Send Message 🚀</button>
+          </form>
+        </div>
+
+
+        <div style="height:12px"></div>
+
+
+        <section class="card" id="education">
+          <h2>Education</h2>
+
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <strong>MCA — SGB Amravati University</strong>
+                <div class="meta">2024 – 2026</div>
+                <p>Master of Computer Applications focused on software engineering, databases, and application
+                  development.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <strong>BCCA — N. M. D. College, Gondia</strong>
+                <div class="meta">2021 – 2024</div>
+                <p>Strong foundation in computer applications, programming concepts, and practical project development.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <strong>Diploma in Computer Programming — Gokul Computers</strong>
+                <div class="meta">Professional Training</div>
+                <p>Hands-on training in programming, web technologies, and real-world software tools.</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <section class="card" id="experience">
+          <h2>Experience</h2>
+
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <strong>Teaching Assistant — Gokul Computer</strong>
+                <div class="meta">2023 – 2024</div>
+                <p>Assisted in teaching HTML, CSS, and PHP. Helped students understand programming concepts, debug
+                  issues, and build practical projects.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <strong>Software Development Intern — Gokul Computers</strong>
+                <div class="meta">2023</div>
+                <p>Worked on client-oriented projects involving PHP, Java, and web deployment. Gained real-world
+                  development and problem-solving experience.</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </aside>
+    </main>
+    <section class="card" id="certificates">
+      <h2>Certificates</h2>
+      <p class="lead">Professional certifications & achievements</p>
+
+      <div class="cert-belt-wrapper">
+        <div class="cert-belt">
+
+          <img src="assets/certs/cer1.png">
+          <img src="assets/certs/cer2.png">
+          <img src="assets/certs/cer3.png">
+          <img src="assets/certs/cer4.png">
+          <img src="assets/certs/cer5.png">
+          <img src="assets/certs/cer6.png">
+          <img src="assets/certs/cer7.png">
+          <img src="assets/certs/cer8.png">
+          <img src="assets/certs/cer9.png">
+          <img src="assets/certs/cer10.png">
+          <img src="assets/certs/cer11.png">
+          <img src="assets/certs/cer12.png">
+          <img src="assets/certs/cer13.png">
+          <img src="assets/certs/cer14.png">
+          <img src="assets/certs/cer15.png">
+          <img src="assets/certs/cer16.png">
+
+          <!-- Duplicate for seamless infinite loop -->
+          <img src="assets/certs/cer1.png">
+          <img src="assets/certs/cer2.png">
+          <img src="assets/certs/cer3.png">
+          <img src="assets/certs/cer4.png">
+          <img src="assets/certs/cer5.png">
+          <img src="assets/certs/cer6.png">
+          <img src="assets/certs/cer7.png">
+          <img src="assets/certs/cer8.png">
+          <img src="assets/certs/cer9.png">
+          <img src="assets/certs/cer10.png">
+          <img src="assets/certs/cer11.png">
+          <img src="assets/certs/cer12.png">
+          <img src="assets/certs/cer13.png">
+          <img src="assets/certs/cer14.png">
+          <img src="assets/certs/cer15.png">
+          <img src="assets/certs/cer16.png">
+
+        </div>
+      </div>
+    </section>
+    <footer class="mega-footer">
+
+      <div class="footer-glow"></div>
+
+      <div class="footer-content">
+
+        <div class="footer-brand">
+          <div class="footer-logo">LK</div>
+          <div>
+            <div class="footer-name">Lihance K. Bopche</div>
+            <div class="footer-tag">Full-Stack Developer • UI Engineer • Problem Solver</div>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#certificates">Certificates</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-social">
+          <a href="https://github.com/LihanceBopche" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/lihance-komesh-bopche-15a263220" target="_blank">LinkedIn</a>
+          <a href="mailto:lihancebopche@gmail.com">Email</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> All Rights Reserved</span>
+
+        <button id="goTopBtn">⬆ Go To Top</button>
+      </div>
+
+    </footer>
+
+  </div>
+
+  <!-- three.js CDN for 3D hero + id-card parallax -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
