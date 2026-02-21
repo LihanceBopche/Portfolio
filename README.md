@@ -1,94 +1,105 @@
-# ✨ Lihance Bopche – Portfolio Website
+<div align="center">
 
-A modern, responsive personal portfolio website showcasing my projects, skills, certifications, and design approach.
+# 🌑✨ Lihance Bopche – Portfolio
 
-🌐 **Live Website:**  
-https://lihance-portfolio.netlify.app  
+A modern, responsive, and design-focused personal portfolio website.
 
-💻 **Repository:**  
-https://github.com/LihanceBopche/Portfolio
+🌐 **Live Demo**  
+https://lihance-portfolio.netlify.app
+
+<br>
+
+![HTML](https://img.shields.io/badge/HTML5-Structure-black?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS3-Styling-black?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-Interactivity-black?style=for-the-badge&logo=javascript)
+![Status](https://img.shields.io/badge/Status-Live-black?style=for-the-badge)
+
+</div>
 
 ---
 
-## 🚀 Overview
+## ✨ Overview
 
-This portfolio is built to represent my development style, UI preferences, and continuous learning journey.  
-The focus was on **clean design, smooth layout, and responsiveness across devices**.
+This portfolio website represents my skills, projects, and design approach as a developer.  
+The goal was to craft a **clean, minimal, and visually refined experience** while maintaining performance and responsiveness.
 
 ---
 
-## 🎯 Key Features
+## 🚀 Features
 
-✔ Modern & minimal UI  
-✔ Fully responsive layout  
-✔ Clean structure & styling  
-✔ Smooth user experience  
-✔ Lightweight & fast performance  
+✔ Modern & minimal dark-friendly UI  
+✔ Fully responsive across devices  
+✔ Clean and structured layout  
+✔ Smooth visual hierarchy  
+✔ Lightweight & fast loading  
 ✔ Certifications & resume showcase  
 
 ---
 
 ## 🛠 Tech Stack
 
-- **HTML5** – Structure  
-- **CSS3** – Styling & layout  
-- **JavaScript (Vanilla JS)** – Interactivity  
+**Frontend**
+
+- HTML5  
+- CSS3  
+- Vanilla JavaScript  
 
 ---
 
 ## 📂 Project Structure
 
 ```
-mainfolder/
+Portfolio/
 │
-├── index.html        # Main layout
-├── style.css         # Styling & visuals
-├── script.js         # Interactions
+├── index.html        # Main structure
+├── style.css         # Visual styling
+├── script.js         # Logic & interactions
 │
-├── images/           # Logos & graphics
+├── images/           # Graphics & visuals
 ├── assets/
-│   ├── certs/        # Certificates
-│   └── resume/       # Resume preview
+│   ├── certs/        # Certifications
+│   └── resume/       # Resume files
 ```
 
 ---
 
-## 💡 Design Philosophy
+## 🎯 Design Focus
 
 This project emphasizes:
 
-- Visual clarity  
-- Consistent spacing & layout  
+- Clean visual composition  
+- Consistent spacing & alignment  
 - Responsive behavior  
 - User-centric presentation  
+- Modern UI aesthetics  
 
 ---
 
-## 📸 Highlights
+## 🌐 Live Preview
 
-The portfolio includes:
+Explore the full experience here:
 
-✅ Personal introduction  
-✅ Skills & expertise  
-✅ Project showcase  
-✅ Certifications section  
-✅ Resume preview  
+👉 **https://lihance-portfolio.netlify.app**
 
 ---
 
 ## 🤝 Feedback & Collaboration
 
-I’m always open to suggestions, improvements, and collaborations.
+I’m always open to constructive feedback, ideas, and collaborations.
 
-If you have feedback or ideas, feel free to connect.
+If something catches your attention or you have suggestions, feel free to connect.
 
 ---
 
 ## 📬 Connect With Me
 
-- GitHub: **LihanceBopche**  
-- Portfolio: https://lihance-portfolio.netlify.app  
+🌐 Portfolio: https://lihance-portfolio.netlify.app  
+💻 GitHub: https://github.com/LihanceBopche
 
 ---
 
-⭐ If you like the project, consider giving it a star!
+<div align="center">
+
+⭐ **If you like this project, consider giving it a star!**
+
+</div>
